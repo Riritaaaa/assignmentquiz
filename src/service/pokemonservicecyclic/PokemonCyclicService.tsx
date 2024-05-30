@@ -1,4 +1,4 @@
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+/* import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import {
   useDataPokemon,
   RawPokemon,
@@ -96,3 +96,4 @@ const PokemonCyclicService = createApi({
 export const { useGetListPokemonCyclicQuery, useGetPokemonCyclicByIDQuery ,useLazyGetPokemonCyclicByIDQuery } =
   PokemonCyclicService;
 export default PokemonCyclicService;
+ */

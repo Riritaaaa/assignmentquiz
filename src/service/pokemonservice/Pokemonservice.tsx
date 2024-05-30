@@ -21,7 +21,7 @@ const Pokemonservice = createApi({
     }),
     getPokemonByID: builder.query<PokemonDetail, string>({
       query: (name) => `pokemon/${name}`,
-      transformResponse: (response: RawPokemonDetail, meta, arg) => {
+      transformResponse: (response: RawPokemonDetail, _meta, arg) => {
         const resultAbility = response.abilities.map((item) => {
           return item.ability.name;
         });
