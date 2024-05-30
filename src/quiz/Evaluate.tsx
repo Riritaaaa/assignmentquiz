@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "@store/store";
 import wing from "@assets/wing.png";
 import wing2 from "@assets/wing2.png";
+import "./quiz.css"
 
 const Evaluate = () => {
   const theme = useSelector((state: RootState) => state.theme.theme);
